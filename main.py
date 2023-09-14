@@ -39,7 +39,7 @@ dense1.forward(X)
 activation1.forward(dense1.output)
 print(activation1.output)
 
-dense2.forward((activation1.output))
+dense2.forward(activation1.output)
 activation2.forward(dense2.output)
 
 print(activation2.output)
